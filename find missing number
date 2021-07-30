@@ -1,0 +1,21 @@
+/******************************************************************************
+
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <stdio.h>
+//Option 1
+int main()
+{
+int number[10] = {1,8,9,4,5,3,10,7,6};
+int temp= number [0];
+for (int i=1;i<9;i++){
+temp=number[i]+temp;
+}
+int result=55-temp;
+printf("the missing number is %d",result);
+    return 0;
+}
